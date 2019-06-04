@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- import jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!--import Google icon library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- import color palette-->
+  <link rel="stylesheet" href="palette.css">
+
+  <style media="screen">
+  .carousel-item {
+  min-width: 600px;
+  }
+  .carousel{
+  min-height: 500px;
+  }
+  </style>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+    $('.tabs').tabs();
+    });
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+  $('.carousel').carousel();
+});
+  </script>
+  <title>Margie's Design Manifesto</title>
+</head>
+  <body class="light-primary-color">
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper default-primary-color">
+        <a href="#!" class="brand-logo center valign"><img src="MDMlong.png" alt="Margie's Design Manifesto"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i class="material-icons left deep-purple-text accent-2-text">menu</i></a>
+      </div>
+    </nav>
+    </div>
+
+  <ul class="sidenav dark-primary-color" id="mobile-demo">
+    <li><a class="white-text" href="index.html">Color</a></li>
+    <li><a class="white-text" href="UX.html">UX</a></li>
+  </ul>
+
+  <main>
+    <div class=" container col s12">
+      <h3 class="pink-text accent-3-text">Color</h3>
+      <h6>Color is such a fundamental part of the way we perceive the world that we often take it for granted. Think about it: From the youthful and vivid orange on someone's attire to the gray and gloomy sky above us, colors have the power to mold our perceptions of others and even the circumstances we find ourselves in.
+        <br></br>This is why one of the most powerful tools in a designer's arsenal is color. It can either make or break a design; it can be the determining factor in engaging viewers or sending them promptly on their way.</h6>
+    </div>
+
+    <div class="carousel center">
+      <div class="container">
+        <h3 class="deep-purple-text lighten-1">Margie's Favorite Color Schemes<br>from Award Winning Websites</h3>
+      </div>
+      <a class="carousel-item" ><img src="https://visme.co/blog/wp-content/uploads/2016/09/website12.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="https://visme.co/blog/wp-content/uploads/2016/09/website18.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="https://visme.co/blog/wp-content/uploads/2016/09/website21.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="https://visme.co/blog/wp-content/uploads/2016/09/website26.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="https://visme.co/blog/wp-content/uploads/2016/09/website31.jpg"></a>
+    </div>
+
+
+  </main>
+
+  <!--FOOTER-->
+        <footer class="accent-color">
+          <div>
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="cyan-text">Margie MonteLeon</h5>
+                <h6 class="grey-text text-lighten-4">Disclaimer: I do not own ANY of this intellectual content.</h6>
+                <a class="grey-text text-lighten-3" href="https://visme.co/blog/website-color-schemes/"><h6>This conent was plagiarised from <u>Visme's Color Schemes from Stunning Websites.</u></h6></a>
+                <h5></h5>
+            </div>
+          </div>
+
+        </footer>
+  </body>
+
+  <script>
+  $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
+  </script>
+</html>
